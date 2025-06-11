@@ -1,0 +1,29 @@
+name: product
+sections:
+  - name: metadata
+    type: section
+    fields:
+      - name: author
+        type: string
+        label: Auteur
+      - name: tags
+        type: array
+        label: Catégories
+  - name: details
+    type: section
+    fields:
+      - name: name
+        type: string
+        label: Nom du produit
+      - name: description
+        type: richtext
+        label: Description détaillée
+      - name: price
+        type: number
+        label: Prix
+  - name: media
+    type: section
+    fields:
+      - name: image
+        type: string
+        label: Image du produit

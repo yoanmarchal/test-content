@@ -1,0 +1,44 @@
+name: event
+sections:
+  - name: main
+    type: section
+    fields:
+      - name: title
+        type: string
+        label: Titre de l'événement
+      - name: description
+        type: richtext
+        label: Description détaillée
+      - name: date
+        type: date
+        label: Date de l'événement
+      - name: isPublic
+        type: boolean
+        label: Événement public
+  - name: media
+    type: section
+    fields:
+      - name: poster
+        type: image
+        label: Affiche de l'événement
+      - name: gallery
+        type: array
+        label: Galerie photos
+  - name: relations
+    type: section
+    fields:
+      - name: organizer
+        type: reference
+        label: Organisateur
+      - name: price
+        type: number
+        label: Prix d'entrée
+  - name: metadata
+    type: section
+    fields:
+      - name: tags
+        type: array
+        label: Étiquettes
+      - name: location
+        type: string
+        label: Lieu

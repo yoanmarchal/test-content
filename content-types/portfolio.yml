@@ -1,0 +1,35 @@
+name: portfolio
+sections:
+  - name: header
+    type: section
+    fields:
+      - name: title
+        type: string
+        label: Titre du portfolio
+      - name: subtitle
+        type: string
+        label: Sous-titre
+      - name: coverImage
+        type: image
+        label: Image de couverture
+  - name: content
+    type: section
+    fields:
+      - name: description
+        type: richtext
+        label: Description du projet
+      - name: photos
+        type: gallery
+        label: Galerie de photos
+  - name: metadata
+    type: section
+    fields:
+      - name: categories
+        type: array
+        label: Catégories
+      - name: client
+        type: string
+        label: Client
+      - name: projectDate
+        type: date
+        label: Date du projet
