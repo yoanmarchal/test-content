@@ -1,7 +1,7 @@
 ---
 contentType: article
 createdAt: 2025-05-03T11:30:00.000Z
-updatedAt: 2025-05-04T17:08:22.365Z
+updatedAt: 2025-06-30T17:51:57.978Z
 published: true
 main:
   type: section
@@ -12,6 +12,8 @@ main:
     body:
       type: richtext
       value: Ceci est le contenu de l'articl
+  title: Article de test avec types
+  body: Ceci est le contenu de l'article
 metadata:
   type: section
   value:
@@ -20,9 +22,15 @@ metadata:
       value: John Doe
     tags:
       type: array
-      value:
+      value: &a1
         - test
         - types
+    status:
+      type: select
+      value: ""
+  author: John Doe
+  tags: *a1
+  status: ""
 hero:
   type: section
   value:
@@ -45,7 +53,7 @@ hero:
       value: article-reference
     galerietest:
       type: gallery
-      value:
+      value: &a2
         - url: https://placehold.co/600x400
           alt: Image
           caption: Légende 1
@@ -54,7 +62,16 @@ hero:
           alt: Image 2
           caption: Légende 2
           order: 1
+  titre: Mon titre hero
+  datestart: {}
+  testbool: true
+  testimg:
+    url: https://placehold.co/600x400
+    alt: Image de test
+  testref: article-reference
+  galerietest: *a2
 ---
+
 
 
 
