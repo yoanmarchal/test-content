@@ -1,7 +1,7 @@
 ---
 contentType: article
 createdAt: 2025-05-03T11:30:00.000Z
-updatedAt: 2025-05-04T17:08:22.365Z
+updatedAt: 2025-06-30T18:23:38.728Z
 published: true
 main:
   type: section
@@ -11,7 +11,7 @@ main:
       value: Article de test avec types
     body:
       type: richtext
-      value: Ceci est le contenu de l'articl
+      value: Ceci est le contenu de l'article
 metadata:
   type: section
   value:
@@ -23,6 +23,9 @@ metadata:
       value:
         - test
         - types
+    status:
+      type: select
+      value: ""
 hero:
   type: section
   value:
@@ -55,6 +58,7 @@ hero:
           caption: Légende 2
           order: 1
 ---
+
 
 
 
