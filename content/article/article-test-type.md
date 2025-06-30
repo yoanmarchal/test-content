@@ -1,66 +1,60 @@
 ---
 contentType: article
 createdAt: 2025-05-03T11:30:00.000Z
-updatedAt: 2025-05-04T17:08:22.365Z
+updatedAt: 2025-06-30T17:40:32.310Z
 published: true
 main:
   type: section
   value:
     title:
       type: string
-      value: Article de test avec types
+      value: ""
     body:
       type: richtext
-      value: Ceci est le contenu de l'articl
+      value: ""
 metadata:
   type: section
   value:
     author:
       type: string
-      value: John Doe
+      value: ""
     tags:
       type: array
-      value:
-        - test
-        - types
+      value: []
+    status:
+      type: select
+      value: ""
 hero:
   type: section
   value:
     titre:
       type: string
-      value: Mon titre hero
+      value: ""
     datestart:
       type: date
-      value: 2025-05-10T00:00:00.000Z
+      value: ""
     testbool:
       type: boolean
-      value: true
+      value: false
     testimg:
       type: image
       value:
-        url: https://placehold.co/600x400
-        alt: Image de test
+        url: ""
+        alt: ""
     testref:
       type: reference
-      value: article-reference
+      value: ""
     galerietest:
       type: gallery
-      value:
-        - url: https://placehold.co/600x400
-          alt: Image
-          caption: Légende 1
-          order: 0
-        - url: https://placehold.co/600x400
-          alt: Image 2
-          caption: Légende 2
-          order: 1
+      value: []
 ---
+
 
 
 
 # Article de test avec types
 
-Ceci est le contenu principal de l'article, écrit en Markdown.
+Ceci est le contenu principal de l'article, �crit en Markdown.
 
 ## Une section
 
