@@ -46,6 +46,6 @@ sections:
       - name: testref
         type: reference
         label: Référence de test
-      - name: galerietest
+      - name: galerietes
         type: gallery
         label: Galerie d'images
