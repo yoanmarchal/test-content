@@ -1,20 +1,20 @@
 ---
 contentType: event
 createdAt: 2025-05-03T11:40:00.000Z
-updatedAt: 2025-05-03T12:04:52.016Z
+updatedAt: 2025-07-01T19:15:30.686Z
 published: true
 main:
   type: section
   value:
     title:
       type: string
-      value: Conférence Tech 2025
+      value: Conférence Tech 202
     description:
       type: richtext
       value: Une conférence sur les dernières innovations technologiques
     date:
       type: date
-      value: 2025-06-15
+      value: 2025-06-15T00:00:00.000Z
     isPublic:
       type: boolean
       value: true
@@ -53,6 +53,7 @@ metadata:
       type: string
       value: Centre des Congrès de Paris
 ---
+
 
 
 # Conférence Tech 2025
