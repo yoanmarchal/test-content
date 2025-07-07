@@ -1,7 +1,7 @@
 ---
 contentType: event
 createdAt: 2025-05-03T11:40:00.000Z
-updatedAt: 2025-07-01T19:15:30.686Z
+updatedAt: 2025-07-07T20:37:46.169Z
 published: true
 main:
   type: section
@@ -46,13 +46,13 @@ metadata:
     tags:
       type: array
       value:
-        - technologie
         - innovation
         - conférence
     location:
       type: string
       value: Centre des Congrès de Paris
 ---
+
 
 
 
