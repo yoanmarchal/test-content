@@ -3,12 +3,6 @@ sections:
   - name: metadata
     type: section
     fields:
-      - name: author
-        type: string
-        label: Auteur
-      - name: tags
-        type: array
-        label: Mots-clés
       - name: status
         type: select
         label: État de l'article
