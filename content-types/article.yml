@@ -13,10 +13,6 @@ sections:
         type: select
         label: État de l'article
         options:
-          - value: draft
-            label: Brouillon
-          - value: published
-            label: Publié
           - value: archived
             label: Archivé
   - name: hero
