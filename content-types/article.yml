@@ -6,12 +6,6 @@ sections:
       - name: title
         type: string
         label: Titre de l'article
-      - name: body
-        type: richtext
-        label: Contenu principal
-      - name: nouveau_champ
-        type: string
-        label: Nouveau champ
       - name: nouveau_champ
         type: string
         label: Nouveau champ
