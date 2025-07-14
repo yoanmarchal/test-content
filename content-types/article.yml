@@ -15,12 +15,6 @@ sections:
       - name: titre
         type: string
         label: Titre de la bannière
-      - name: testimg
-        type: image
-        label: Image de test
-      - name: testref
-        type: reference
-        label: Référence de test
       - name: galerietest
         type: gallery
         label: Galerie d'images
