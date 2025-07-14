@@ -1,8 +1,9 @@
 ---
 contentType: event
 createdAt: 2025-05-03T11:40:00.000Z
-updatedAt: 2025-05-03T12:04:52.016Z
+updatedAt: 2025-07-14T13:58:49.401Z
 published: true
+title: dqsd
 main:
   type: section
   value:
@@ -14,7 +15,7 @@ main:
       value: Une conférence sur les dernières innovations technologiques
     date:
       type: date
-      value: 2025-06-15
+      value: 2025-06-15T00:00:00.000Z
     isPublic:
       type: boolean
       value: true
@@ -53,6 +54,7 @@ metadata:
       type: string
       value: Centre des Congrès de Paris
 ---
+
 
 
 # Conférence Tech 2025
