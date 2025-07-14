@@ -1,0 +1,57 @@
+name: article
+sections:
+  - name: main
+    type: section
+    fields:
+      - name: title
+        type: string
+        label: Titre de l'article
+      - name: body
+        type: richtext
+        label: Contenu principal
+      - name: nouveau_champ
+        type: string
+        label: Nouveau champ
+      - name: nouveau_champ
+        type: string
+        label: Nouveau champ
+  - name: metadata
+    type: section
+    fields:
+      - name: author
+        type: string
+        label: Auteur
+      - name: tags
+        type: array
+        label: Mots-clés
+      - name: status
+        type: select
+        label: État de l'article
+        options:
+          - value: draft
+            label: Brouillon
+          - value: published
+            label: Publié
+          - value: archived
+            label: Archivé
+  - name: hero
+    type: section
+    fields:
+      - name: titre
+        type: string
+        label: Titre de la bannière
+      - name: datestart
+        type: date
+        label: Date de début
+      - name: testbool
+        type: boolean
+        label: Test booléen
+      - name: testimg
+        type: image
+        label: Image de test
+      - name: testref
+        type: reference
+        label: Référence de test
+      - name: galerietest
+        type: gallery
+        label: Galerie d'images
