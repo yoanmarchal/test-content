@@ -1,14 +1,5 @@
 name: article
 sections:
-  - name: main
-    type: section
-    fields:
-      - name: title
-        type: string
-        label: Titre de l'article
-      - name: nouveau_champ
-        type: string
-        label: Nouveau champ
   - name: metadata
     type: section
     fields:
