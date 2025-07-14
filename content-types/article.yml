@@ -15,12 +15,6 @@ sections:
       - name: titre
         type: string
         label: Titre de la bannière
-      - name: datestart
-        type: date
-        label: Date de début
-      - name: testbool
-        type: boolean
-        label: Test booléen
       - name: testimg
         type: image
         label: Image de test
