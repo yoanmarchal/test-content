@@ -6,9 +6,7 @@ sections:
       - name: status
         type: select
         label: État de l'article
-        options:
-          - value: archived
-            label: Archivé
+        options: []
   - name: hero
     type: section
     fields:
@@ -16,5 +14,5 @@ sections:
         type: string
         label: Titre de la bannière
       - name: galerietest
-        type: gallery
+        type: string
         label: Galerie d'images
