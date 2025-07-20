@@ -1,11 +1,11 @@
 name: article
 sections:
-  - name: metadata
+  - name: metadatadsqdsqdqs
     type: section
     fields:
-      - name: status
+      - name: statusdsqdsqdsqd
         type: select
-        label: État de l'article
+        label: État de l'articledsqdsqd
         options: []
   - name: hero
     type: section
