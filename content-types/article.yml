@@ -5,7 +5,7 @@ sections:
     fields:
       - name: status
         type: select
-        label: État de l'article dsqdqs
+        label: "État de l'article "
         options: []
   - name: hero
     type: section
