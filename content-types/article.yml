@@ -1,6 +1,6 @@
 name: article
 sections:
-  - name: metadatadsdq
+  - name: metadata
     type: section
     fields:
       - name: status
