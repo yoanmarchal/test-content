@@ -3,7 +3,7 @@ sections:
   - name: metadata
     type: section
     fields:
-      - name: statusdsqdsqdsqd
+      - name: status
         type: select
         label: État de l'article
         options: []
