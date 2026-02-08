@@ -1,2 +1,66 @@
 name: article
-sections: []
+sections:
+  - id: 53ba148b-c0a5-43d7-ba9e-a827ec152c21
+    name: main
+    type: section
+    fields:
+      - id: 772f3860-1b32-4fbc-b859-1c9e5c79207e
+        name: title
+        type: string
+        label: Titre de l'article
+      - id: d8c0f81c-eb70-4bcb-af36-a8c81ec72cef
+        name: body
+        type: richtext
+        label: Contenu principal
+  - id: cd213fad-3189-4a6d-b9a6-c0d49d27bdd8
+    name: metadata
+    type: section
+    fields:
+      - id: 97472830-59d4-41f3-8ca7-bca6144e5185
+        name: author
+        type: string
+        label: Auteur
+      - id: 82535e8d-392b-487d-841a-375ebe5d92a1
+        name: categories
+        type: taxonomy
+        label: Catégories
+      - id: eda89c70-131e-4fee-bb1c-5cbfdfa37869
+        name: tags
+        type: taxonomy
+        label: Tags
+      - id: 4bfc1361-f3e0-45dd-b866-48611859179f
+        name: status
+        type: taxonomy
+        label: État de l'article
+  - id: 693b03d8-626e-4b1f-a1ff-7a30a77a7e26
+    name: hero
+    type: section
+    fields:
+      - id: 37a25dff-d60c-4030-af0a-0eb8ab898bec
+        name: titre
+        type: string
+        label: Titre de la bannière
+      - id: 4dd526a0-7762-4aa0-a596-9fb688e17de1
+        name: datestart
+        type: date
+        label: Date de début
+      - id: ac5d1c62-46ac-4c41-8645-b861bd488cd8
+        name: testbool
+        type: boolean
+        label: Test booléen
+      - id: cfbc1e2f-9164-445e-87cc-7adcea42db61
+        name: testimg
+        type: image
+        label: Image de test
+      - id: a3a21351-fc25-4bf0-a0c8-cecdd8916dec
+        name: testref
+        type: reference
+        label: Référence de test
+        referenceType: event
+        referenceLevel: field
+        referenceSection: media
+        referenceField: gallery
+      - id: b6841174-a8fb-4a78-96d3-add880012cd2
+        name: galerietest
+        type: gallery
+        label: Galerie d'images
