@@ -1,0 +1,34 @@
+# Schéma centralisé des taxonomies
+# Permet d'attacher n'importe quelle taxonomie à n'importe quel content-type
+# Pattern: utilisez les références "_taxonomy:nomTaxonomie" dans vos types
+
+taxonomies:
+  categories:
+    id: tax-cat-001
+    label: Catégories
+    singular: category
+    description: Catégories principales du contenu
+    type: hierarchical # peut être 'flat' ou 'hierarchical'
+    isRequired: false
+    isMultiple: true
+    sourceFile: categories.yml
+
+  tags:
+    id: tax-tag-001
+    label: Tags
+    singular: tag
+    description: Mots-clés libres
+    type: flat
+    isRequired: false
+    isMultiple: true
+    sourceFile: tags.yml
+
+  status:
+    id: tax-status-001
+    label: Statut
+    singular: status
+    description: État du contenu
+    type: flat
+    isRequired: true
+    isMultiple: false
+    sourceFile: status.yml

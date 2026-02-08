@@ -5,56 +5,33 @@ updatedAt: 2025-04-24T03:52:12.947Z
 published: true
 slug: event-tdzpys
 main:
-  type: section
-  value:
-    title:
-      type: string
-      value: reiciendis vel itaque dolore
-    description:
-      type: richtext
-      value: |-
-        Ullam sed nulla saepe omnis sunt culpa. Nesciunt fugit unde impedit deserunt doloribus vero odit facere. Id quidem optio at.
-        Nisi asperiores neque corporis quasi quo. Totam facilis dolore quisquam ratione. Cumque est cupiditate distinctio.
-    date:
-      type: date
-      value: 2025-04-02
-    isPublic:
-      type: boolean
-      value: true
+  title: reiciendis vel itaque dolore
+  description: >-
+    Ullam sed nulla saepe omnis sunt culpa. Nesciunt fugit unde impedit deserunt
+    doloribus vero odit facere. Id quidem optio at.
+
+    Nisi asperiores neque corporis quasi quo. Totam facilis dolore quisquam
+    ratione. Cumque est cupiditate distinctio.
+  date: 2025-04-02T00:00:00.000Z
+  isPublic: true
 media:
-  type: section
-  value:
-    poster:
-      type: image
-      value:
-        url: https://loremflickr.com/3855/651?lock=8967316252225699
-        alt: Laudantium praesentium repudiandae mollitia suscipit deleniti.
-    gallery:
-      type: array
-      value:
-        - autem
-        - architecto
+  poster:
+    url: 'https://loremflickr.com/3855/651?lock=8967316252225699'
+    alt: Laudantium praesentium repudiandae mollitia suscipit deleniti.
+  gallery:
+    - autem
+    - architecto
 relations:
-  type: section
-  value:
-    organizer:
-      type: reference
-      value: cce8250a-2a1c-4d94-b6fd-c0e75b39ba6a
-    price:
-      type: number
-      value: 617.9635462441632
+  organizer: cce8250a-2a1c-4d94-b6fd-c0e75b39ba6a
+  price: 617.9635462441632
 metadata:
-  type: section
-  value:
-    tags:
-      type: array
-      value:
-        - id
-        - voluptatum
-    location:
-      type: string
-      value: repellendus animi ad laudantium
+  tags:
+    - id
+    - voluptatum
+  location: repellendus animi ad laudantium
+id: 70ed27ae-b354-4062-bf0e-fe0089334e78
 ---
+
 
 Ullam sed nulla saepe omnis sunt culpa. Nesciunt fugit unde impedit deserunt doloribus vero odit facere. Id quidem optio at.
 Nisi asperiores neque corporis quasi quo. Totam facilis dolore quisquam ratione. Cumque est cupiditate distinctio.

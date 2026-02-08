@@ -1,0 +1,47 @@
+id: tax-categories
+label: Catégories
+description: Catégories principales du contenu
+items:
+  - id: cat-actualites
+    name: Actualités
+    label: Actualités
+    slug: actualites
+    color: "#3B82F6"
+    icon: newspaper
+    description: Les dernières actualités et nouvelles
+    order: 1
+  - id: cat-tutoriels
+    name: Tutoriels
+    label: Tutoriels
+    slug: tutoriels
+    color: "#10B981"
+    icon: graduation-cap
+    description: Guides et tutoriels pratiques
+    order: 2
+  - id: cat-ressources
+    name: Ressources
+    label: Ressources
+    slug: ressources
+    color: "#A855F7"
+    icon: books
+    description: Ressources utiles et références
+    order: 3
+    children:
+      - id: cat-ressources-docs
+        name: Documentation
+        label: Documentation
+        slug: documentation
+        order: 1
+      - id: cat-ressources-outils
+        name: Outils
+        label: Outils
+        slug: outils
+        order: 2
+  - id: cat-portfolio
+    name: Portfolio
+    label: Portfolio
+    slug: portfolio
+    color: "#F59E0B"
+    icon: briefcase
+    description: Projets et réalisations
+    order: 4

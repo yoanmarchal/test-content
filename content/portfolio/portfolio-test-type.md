@@ -4,44 +4,24 @@ createdAt: 2025-05-03T11:35:00.000Z
 updatedAt: 2025-05-03T12:05:03.332Z
 published: true
 header:
-  type: section
-  value:
-    title:
-      type: string
-      value: Portfolio photographe
-    subtitle:
-      type: string
-      value: Collection de photos nature
-    coverImage:
-      type: image
-      value:
-        url: https://placehold.co/1200x400
-        alt: Couverture du portfolio
+  title: Portfolio photographe
+  subtitle: Collection de photos nature
+  coverImage:
+    url: 'https://placehold.co/1200x400'
+    alt: Couverture du portfolio
 content:
-  type: section
-  value:
-    description:
-      type: richtext
-      value: ""
-    photos:
-      type: gallery
-      value: []
+  description: ''
+  photos: []
 metadata:
-  type: section
-  value:
-    categories:
-      type: array
-      value:
-        - Nature
-        - Paysage
-        - Voyage
-    client:
-      type: string
-      value: National Geographic
-    projectDate:
-      type: date
-      value: 2025-04-15
+  categories:
+    - Nature
+    - Paysage
+    - Voyage
+  client: National Geographic
+  projectDate: 2025-04-15T00:00:00.000Z
+id: 194275dd-5075-4651-9c4e-c76a4ad390ac
 ---
+
 
 
 # Portfolio Photographe Nature

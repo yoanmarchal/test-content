@@ -1,0 +1,39 @@
+id: tax-status
+label: Statuts
+description: État du contenu
+items:
+  - id: status-draft
+    name: Brouillon
+    label: Brouillon
+    slug: draft
+    color: "#9CA3AF"
+    icon: pencil
+    order: 1
+  - id: status-scheduled
+    name: Programmé
+    label: Programmé
+    slug: scheduled
+    color: "#3B82F6"
+    icon: calendar
+    order: 2
+  - id: status-published
+    name: Publié
+    label: Publié
+    slug: published
+    color: "#10B981"
+    icon: check-circle
+    order: 3
+  - id: status-archived
+    name: Archivé
+    label: Archivé
+    slug: archived
+    color: "#6B7280"
+    icon: archive
+    order: 4
+  - id: status-review
+    name: En révision
+    label: En révision
+    slug: review
+    color: "#F59E0B"
+    icon: alert-circle
+    order: 5

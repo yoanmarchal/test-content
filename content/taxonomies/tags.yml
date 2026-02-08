@@ -1,0 +1,52 @@
+id: tax-tags
+label: Tags
+description: Mots-clés et catégorisations
+items:
+  - id: tag-javascript
+    name: JavaScript
+    label: JavaScript
+    slug: javascript
+    color: "#F7DF1E"
+    icon: code
+
+  - id: tag-react
+    name: React
+    label: React
+    slug: react
+    color: "#61DAFB"
+    icon: code
+
+  - id: tag-web
+    name: Web
+    label: Web
+    slug: web
+    color: "#0066CC"
+    icon: globe
+
+  - id: tag-design
+    name: Design
+    label: Design
+    slug: design
+    color: "#FF69B4"
+    icon: palette
+
+  - id: tag-performance
+    name: Performance
+    label: Performance
+    slug: performance
+    color: "#FF6B6B"
+    icon: zap
+
+  - id: tag-mobile
+    name: Mobile
+    label: Mobile
+    slug: mobile
+    color: "#4CAF50"
+    icon: smartphone
+
+  - id: tag-accessibility
+    name: Accessibilité
+    label: Accessibilité
+    slug: accessibilite
+    color: "#9C27B0"
+    icon: eye

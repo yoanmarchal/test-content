@@ -1,35 +1,83 @@
 name: portfolio
 sections:
-  - name: header
+  - id: 2616808e-15bd-484d-bbfb-9d9459a065ae
+    name: header
     type: section
     fields:
-      - name: title
+      - id: 58a51caa-a0d7-417c-a0ee-29bad00608f8
+        name: title
         type: string
         label: Titre du portfolio
-      - name: subtitle
+      - id: a9667086-7955-4684-9409-2073a2a474b8
+        name: subtitle
         type: string
         label: Sous-titre
-      - name: coverImage
+      - id: 66b0dc24-241e-48fe-9226-b2d31f2afb97
+        name: coverImage
         type: image
         label: Image de couverture
-  - name: content
+  - id: 189dceb4-198d-4ebd-a6a0-b4f88a1184ad
+    name: content
     type: section
     fields:
-      - name: description
+      - id: 8338b62f-ba12-4964-909c-7c427a40f5db
+        name: description
         type: richtext
         label: Description du projet
-      - name: photos
+      - id: 2332ea18-03a6-4875-bc94-9411d80f32a9
+        name: photos
         type: gallery
         label: Galerie de photos
-  - name: metadata
+  - id: 96b7c24a-a75d-485a-810a-d58fb2b13113
+    name: metadata
     type: section
     fields:
-      - name: categories
-        type: array
+      - id: tax-cat-ref-002
+        name: categories
+        type: taxonomy
         label: Catégories
-      - name: client
+        taxonomyName: categories
+      - id: tax-tag-ref-002
+        name: tags
+        type: taxonomy
+        label: Tags
+        taxonomyName: tags
+      - id: 111e2e0d-7a45-4048-850a-da85d4943125
+        name: client
         type: string
         label: Client
-      - name: projectDate
+      - id: 2727fd8a-3816-449b-918b-2011c984c842
+        name: projectDate
         type: date
         label: Date du projet
+      - id: tax-status-ref-002
+        name: status
+        type: taxonomy
+        label: Statut
+        taxonomyName: status
+  - id: f35322be-cd20-4166-925c-409a49de4d5e
+    name: relations
+    label: Nouvelle section
+    type: section
+    fields:
+      - id: 66b75f5a-5b09-4d5d-9eaf-8b5babdd63d1
+        name: articleref
+        type: reference
+        label: Nouveau champ
+        referenceType: article
+        referenceLevel: content
+      - id: ca7cc1c3-5b9c-4fa0-bd72-6eb638984509
+        name: articlesection
+        type: reference
+        label: Nouveau champ
+        referenceType: article
+        referenceLevel: section
+        referenceSection: hero
+      - id: 4b7f16f1-3368-4ac7-8e7d-8ab8ccadd88a
+        name: nouveau_champ
+        type: reference
+        label: Nouveau champ
+        referenceType: article
+        referenceLevel: field
+        referenceSection: hero
+        referenceField: titre

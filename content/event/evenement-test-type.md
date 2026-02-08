@@ -1,58 +1,30 @@
 ---
 contentType: event
 createdAt: 2025-05-03T11:40:00.000Z
-updatedAt: 2025-07-14T13:58:49.401Z
+updatedAt: 2025-05-03T12:04:52.016Z
 published: true
-title: dqsd
 main:
-  type: section
-  value:
-    title:
-      type: string
-      value: Conférence Tech 2025
-    description:
-      type: richtext
-      value: Une conférence sur les dernières innovations technologiques
-    date:
-      type: date
-      value: 2025-06-15T00:00:00.000Z
-    isPublic:
-      type: boolean
-      value: true
+  title: Conférence Tech 2025
+  description: Une conférence sur les dernières innovations technologiques
+  date: 2025-06-15T00:00:00.000Z
+  isPublic: true
 media:
-  type: section
-  value:
-    poster:
-      type: image
-      value:
-        url: https://placehold.co/1200x600
-        alt: Affiche de la conférence
-    gallery:
-      type: array
-      value:
-        - https://placehold.co/800x600
-        - https://placehold.co/800x600
+  poster:
+    url: 'https://placehold.co/1200x600'
+    alt: Affiche de la conférence
+  gallery:
+    - 'https://placehold.co/800x600'
+    - 'https://placehold.co/800x600'
 relations:
-  type: section
-  value:
-    organizer:
-      type: reference
-      value: tech-company
-    price:
-      type: number
-      value: 199.99
+  organizer: tech-company
+  price: 199.99
 metadata:
-  type: section
-  value:
-    tags:
-      type: array
-      value:
-        - technologie
-        - innovation
-        - conférence
-    location:
-      type: string
-      value: Centre des Congrès de Paris
+  tags:
+    - technologie
+    - innovation
+    - conférence
+  location: Centre des Congrès de Paris
+id: 32ba3b7c-d075-4833-8c4d-605306e265cd
 ---
 
 

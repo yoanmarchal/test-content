@@ -4,36 +4,20 @@ createdAt: 2025-05-03T11:45:00.000Z
 updatedAt: 2025-05-03T12:05:10.170Z
 published: true
 metadata:
-  type: section
-  value:
-    author:
-      type: string
-      value: Marie Martin
-    tags:
-      type: array
-      value:
-        - électronique
-        - innovation
-        - technologie
+  author: Marie Martin
+  tags:
+    - électronique
+    - innovation
+    - technologie
 details:
-  type: section
-  value:
-    name:
-      type: string
-      value: SmartWatch Pro
-    description:
-      type: richtext
-      value: Une montre connectée dernière génération avec suivi santé avancé
-    price:
-      type: number
-      value: 299.99
+  name: SmartWatch Pro
+  description: Une montre connectée dernière génération avec suivi santé avancé
+  price: 299.99
 media:
-  type: section
-  value:
-    image:
-      type: string
-      value: https://placehold.co/800x800
+  image: 'https://placehold.co/800x800'
+id: ee1d69b1-e228-49fb-ad9d-26008cd54be3
 ---
+
 
 
 # SmartWatch Pro
