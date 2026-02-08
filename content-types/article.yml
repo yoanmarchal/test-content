@@ -53,7 +53,7 @@ sections:
         type: image
         label: Image de test
       - id: a3a21351-fc25-4bf0-a0c8-cecdd8916dec
-        name: testrefs
+        name: testref
         type: reference
         label: Référence de test
         referenceType: event
