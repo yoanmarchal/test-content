@@ -36,12 +36,10 @@ sections:
         name: categories
         type: taxonomy
         label: Catégories
-        taxonomyName: categories
       - id: tax-tag-ref-002
         name: tags
         type: taxonomy
         label: Tags
-        taxonomyName: tags
       - id: 111e2e0d-7a45-4048-850a-da85d4943125
         name: client
         type: string
@@ -54,7 +52,6 @@ sections:
         name: status
         type: taxonomy
         label: Statut
-        taxonomyName: status
   - id: f35322be-cd20-4166-925c-409a49de4d5e
     name: relations
     label: Nouvelle section
@@ -74,7 +71,7 @@ sections:
         referenceLevel: section
         referenceSection: hero
       - id: 4b7f16f1-3368-4ac7-8e7d-8ab8ccadd88a
-        name: nouveau_champ
+        name: test
         type: reference
         label: Nouveau champ
         referenceType: article
