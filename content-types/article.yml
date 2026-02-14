@@ -24,14 +24,17 @@ sections:
         name: categories
         type: taxonomy
         label: Catégories
+        taxonomyId: tax-categories
       - id: eda89c70-131e-4fee-bb1c-5cbfdfa37869
         name: tags
         type: taxonomy
         label: Tags
+        taxonomyId: tax-tags
       - id: 4bfc1361-f3e0-45dd-b866-48611859179f
         name: status
         type: taxonomy
         label: État de l'article
+        taxonomyId: tax-status
   - id: 693b03d8-626e-4b1f-a1ff-7a30a77a7e26
     name: hero
     type: section
