@@ -1,69 +1,72 @@
 name: event
 sections:
-  - name: main
+  - id: 74986c50-7c74-42fa-8df1-ef7519620a22
+    name: main
     type: section
     fields:
-      - name: title
+      - id: 0df9f875-ba21-4466-9701-86fb42967fd1
+        name: title
         type: string
         label: Titre de l'événement
-        id: 0df9f875-ba21-4466-9701-86fb42967fd1
-      - name: description
+      - id: a92eebc1-0fbb-4da0-9ba2-4e81e9a537a3
+        name: description
         type: richtext
         label: Description détaillée
-        id: a92eebc1-0fbb-4da0-9ba2-4e81e9a537a3
-      - name: date
+      - id: 17f0fd8b-a79b-4a97-a676-10e1c247bd0d
+        name: date
         type: date
         label: Date de l'événement
-        id: 17f0fd8b-a79b-4a97-a676-10e1c247bd0d
-      - name: isPublic
+      - id: ae1c4c58-a236-48a7-9995-479fdfd29d82
+        name: isPublic
         type: boolean
         label: Événement public
-        id: ae1c4c58-a236-48a7-9995-479fdfd29d82
-    id: 74986c50-7c74-42fa-8df1-ef7519620a22
-  - name: media
+  - id: af0a89d5-d72c-433a-80e7-ddd63b8cef84
+    name: media
     type: section
     fields:
-      - name: poster
+      - id: a84717a7-5389-43bc-b8c8-d1cf220bf626
+        name: poster
         type: image
         label: Affiche de l'événement
-        id: a84717a7-5389-43bc-b8c8-d1cf220bf626
-      - name: gallery
+      - id: b6d2e965-1260-4b3c-babe-791edc7370d2
+        name: gallery
         type: gallery
         label: Galerie photos
-        id: b6d2e965-1260-4b3c-babe-791edc7370d2
-    id: af0a89d5-d72c-433a-80e7-ddd63b8cef84
-  - name: relations
+  - id: d96a578b-ccb9-4868-8cfb-2eaf5b3d576c
+    name: relations
     type: section
     fields:
-      - name: organizer
+      - id: 9904c468-16c1-4c3f-af1d-e819d0b65f4d
+        name: organizer
         type: reference
         label: Organisateur
-        id: 9904c468-16c1-4c3f-af1d-e819d0b65f4d
-      - name: price
+      - id: 12c6ac1c-0c3f-488a-a119-0deef3221ebb
+        name: price
         type: number
         label: Prix d'entrée
-        id: 12c6ac1c-0c3f-488a-a119-0deef3221ebb
-    id: d96a578b-ccb9-4868-8cfb-2eaf5b3d576c
-  - name: metadata
+  - id: 40c18208-997d-42de-b8bc-d8423485282a
+    name: metadata
     type: section
     fields:
-      - name: categories
+      - id: 160971a2-2b37-40eb-ae1f-aad65747bff1
+        name: categories
         type: taxonomy
         label: Catégories
-        id: tax-cat-ref-003
         taxonomyName: categories
-      - name: tags
+        taxonomyId: tax-categories
+      - id: aedfc321-a46c-4d49-a8d6-9142543366cc
+        name: tags
         type: taxonomy
         label: Tags
-        id: tax-tag-ref-003
         taxonomyName: tags
-      - name: status
+        taxonomyId: tax-tags
+      - id: 6481e27c-a5fa-4660-944e-f7f89c809f06
+        name: status
         type: taxonomy
         label: Statut
-        id: tax-status-ref-003
         taxonomyName: status
-      - name: location
+        taxonomyId: tax-status
+      - id: acedc7c3-2230-4140-bc1b-3effbda66af8
+        name: location
         type: string
         label: Lieu
-        id: acedc7c3-2230-4140-bc1b-3effbda66af8
-    id: 40c18208-997d-42de-b8bc-d8423485282a
