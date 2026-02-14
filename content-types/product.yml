@@ -1,49 +1,52 @@
 name: product
 sections:
-  - name: metadata
+  - id: fcd884e9-31e4-4f43-8c22-a38166fd2a9f
+    name: metadata
     type: section
     fields:
-      - name: author
+      - id: ed3a052b-ef1b-4b8d-9070-a7b15e9c879d
+        name: author
         type: string
         label: Auteur
-        id: ed3a052b-ef1b-4b8d-9070-a7b15e9c879d
-      - name: categories
+      - id: f07130f9-fffe-4f73-adef-0d321df78689
+        name: categories
         type: taxonomy
         label: Catégories
-        id: tax-cat-ref-004
         taxonomyName: categories
-      - name: tags
+        taxonomyId: tax-categories
+      - id: aef894d2-00a6-4c63-82e6-d1952c0ba1f8
+        name: tags
         type: taxonomy
         label: Tags
-        id: tax-tag-ref-004
         taxonomyName: tags
-      - name: status
+        taxonomyId: tax-tags
+      - id: 8f814e1e-6d1a-4ae8-bc45-69cc4cb0b03b
+        name: status
         type: taxonomy
         label: Statut
-        id: tax-status-ref-004
         taxonomyName: status
-    id: fcd884e9-31e4-4f43-8c22-a38166fd2a9f
-  - name: details
+        taxonomyId: tax-status
+  - id: 58a2830b-63ba-4398-8236-3ae5722a96a8
+    name: details
     type: section
     fields:
-      - name: name
+      - id: 3b219754-8285-4dc6-a0d7-70614014e04b
+        name: name
         type: string
         label: Nom du produit
-        id: 3b219754-8285-4dc6-a0d7-70614014e04b
-      - name: description
+      - id: 1ac12eb9-f6f5-4623-bf7b-ce969821fcb1
+        name: description
         type: richtext
         label: Description détaillée
-        id: 1ac12eb9-f6f5-4623-bf7b-ce969821fcb1
-      - name: price
+      - id: c21dac3c-e5cd-49d5-aab0-3946e788f72e
+        name: price
         type: number
         label: Prix
-        id: c21dac3c-e5cd-49d5-aab0-3946e788f72e
-    id: 58a2830b-63ba-4398-8236-3ae5722a96a8
-  - name: media
+  - id: 7949ee29-f3f5-4796-a4e6-e4e794d8ae55
+    name: media
     type: section
     fields:
-      - name: image
+      - id: 89958b79-6604-4126-b17e-bff91c5daa05
+        name: image
         type: string
         label: Image du produit
-        id: 89958b79-6604-4126-b17e-bff91c5daa05
-    id: 7949ee29-f3f5-4796-a4e6-e4e794d8ae55
