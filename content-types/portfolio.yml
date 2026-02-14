@@ -32,16 +32,18 @@ sections:
     name: metadata
     type: section
     fields:
-      - id: tax-cat-ref-002
+      - id: f3a15170-1fa7-4521-b2de-b0bb1ad27085
         name: categories
         type: taxonomy
         label: Catégories
         taxonomyName: categories
-      - id: tax-tag-ref-002
+        taxonomyId: tax-categories
+      - id: a37e0fd4-fe5a-49c4-a19d-450fd291523d
         name: tags
         type: taxonomy
         label: Tags
         taxonomyName: tags
+        taxonomyId: tax-tags
       - id: 111e2e0d-7a45-4048-850a-da85d4943125
         name: client
         type: string
@@ -50,11 +52,12 @@ sections:
         name: projectDate
         type: date
         label: Date du projet
-      - id: tax-status-ref-002
+      - id: 63f10383-80a3-4d93-a895-b307a7854a6b
         name: status
         type: taxonomy
         label: Statut
         taxonomyName: status
+        taxonomyId: tax-status
   - id: f35322be-cd20-4166-925c-409a49de4d5e
     name: relations
     label: Nouvelle section
