@@ -1,18 +1,21 @@
 ---
 contentType: article
+slug: article-0ngnkl
 createdAt: 2025-11-28T06:12:52.331Z
-updatedAt: 2025-12-28T09:33:44.730Z
+updatedAt: 2026-03-29T12:44:33.809Z
 published: true
+id: 0dce0a97-33aa-44bc-bd8a-9c56f791c96c
 main:
   title: delectus deleniti repudiandae consequuntur
-  body: |-
-    Deserunt velit omnis ipsa. Molestiae qui vero quos nemo tempora. Corrupti dolorem rerum nobis recusandae molestias perferendis maiores.
-    Repellat ad voluptas qui quibusdam modi aliquam laborum beatae veritatis. Amet magnam ipsum non occaecati aliquid excepturi praesentium. Aut quasi minima commodi voluptas vero quos repellat saepe.
+  body: Deserunt velit omnis ipsa. Molestiae qui vero quos nemo tempora. Corrupti dolorem rerum nobis recusandae molestias perferendis maiores. Repellat ad voluptas qui quibusdam modi aliquam laborum beatae veritatis. Amet magnam ipsum non occaecati aliquid excepturi praesentium. Aut quasi minima commodi voluptas vero quos repellat saepe.
 metadata:
   author: occaecati illo maiores esse
-  categories: cat-actualites
-  tags: tag-web
-  status: status-published
+  categories:
+    - cat-actualites
+  tags:
+    - tag-web
+  status:
+    - status-published
 hero:
   titre: quia iusto tempora tempora
   datestart: 2025-11-02T00:00:00.000Z
@@ -20,10 +23,7 @@ hero:
   testimg:
     url: https://loremflickr.com/1357/3172?lock=7332342861346270
     alt: Illum accusantium fugiat omnis ipsum explicabo suscipit.
-  testref:
-    parentId: 4b38e179-1449-4697-a405-e6bd77b17803
-    parentSlug: event-ab9mfz
-    value: dolorum
+  testref: dolorum
   galerietest:
     - url: https://picsum.photos/seed/JHrTZ3o3E/644/1534
       alt: ""
@@ -37,19 +37,6 @@ hero:
       alt: ""
       caption: Non aut cupiditate aliquid totam deserunt repellendus asperiores.
       order: 2
-id: 0dce0a97-33aa-44bc-bd8a-9c56f791c96c
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-Deserunt velit omnis ipsa. Molestiae qui vero quos nemo tempora. Corrupti dolorem rerum nobis recusandae molestias perferendis maiores.
-Repellat ad voluptas qui quibusdam modi aliquam laborum beatae veritatis. Amet magnam ipsum non occaecati aliquid excepturi praesentium. Aut quasi minima commodi voluptas vero quos repellat saepe.
+Deserunt velit omnis ipsa. Molestiae qui vero quos nemo tempora. Corrupti dolorem rerum nobis recusandae molestias perferendis maiores. Repellat ad voluptas qui quibusdam modi aliquam laborum beatae veritatis. Amet magnam ipsum non occaecati aliquid excepturi praesentium. Aut quasi minima commodi voluptas vero quos repellat saepe.
