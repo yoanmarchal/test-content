@@ -2,7 +2,7 @@
 contentType: article
 slug: article-0ngnkl
 createdAt: 2025-11-28T06:12:52.331Z
-updatedAt: 2026-11-08T08:42:24.810Z
+updatedAt: 2026-11-08T11:45:37.016Z
 published: true
 id: 0dce0a97-33aa-44bc-bd8a-9c56f791c96c
 main:
@@ -21,7 +21,7 @@ hero:
   datestart: 2025-11-02T00:00:00.000Z
   testbool: false
   testimg:
-    url: https://loremflickr.com/1357/3172?lock=7332342861346270
+    url: https://raw.githubusercontent.com/yoanmarchal/test-content/main/public/media/31-1920x1080.jpg
     alt: Illum accusantium fugiat omnis ipsum explicabo suscipit.
   testref: dolorum
   galerietest:
@@ -29,8 +29,8 @@ hero:
       alt: ""
       caption: Laborum corrupti dolorem est explicabo quas cupiditate nostrum architecto ab.
       order: 0
-    - url: https://loremflickr.com/2240/1484?lock=4633183476661836
-      alt: ""
+    - url: https://raw.githubusercontent.com/yoanmarchal/test-content/main/public/media/Capture_d__cran_2026-09-24_204033-1793736248499-2aac3190-8c0.webp
+      alt: Capture_d__cran_2026-09-24_204033-1793736248499-2aac3190-8c0.webp
       caption: Tempora quod ipsam omnis doloribus magni porro at.
       order: 1
     - url: https://picsum.photos/seed/M7oTgGuHWk/2021/1704
