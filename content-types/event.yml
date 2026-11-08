@@ -1,4 +1,5 @@
 name: event
+label: event
 sections:
   - id: 74986c50-7c74-42fa-8df1-ef7519620a22
     name: main
@@ -59,13 +60,13 @@ sections:
         type: taxonomy
         label: Tags
         taxonomyName: tags
-        taxonomyId: tax-tags
+        taxonomyId: tags
       - id: 6481e27c-a5fa-4660-944e-f7f89c809f06
         name: status
         type: taxonomy
         label: Statut
         taxonomyName: status
-        taxonomyId: tax-status
+        taxonomyId: status
       - id: acedc7c3-2230-4140-bc1b-3effbda66af8
         name: location
         type: string
