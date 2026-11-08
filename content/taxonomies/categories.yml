@@ -45,9 +45,3 @@ items:
     icon: briefcase
     description: Projets et réalisations
     order: 4
-  - id: test
-    label: Test
-    name: Test
-    slug: test
-    color: "#2c313a"
-    order: 5
