@@ -2,7 +2,7 @@
 contentType: article
 slug: article-0ngnkl
 createdAt: 2025-11-28T06:12:52.331Z
-updatedAt: 2026-03-29T12:44:33.809Z
+updatedAt: 2026-11-08T08:42:24.810Z
 published: true
 id: 0dce0a97-33aa-44bc-bd8a-9c56f791c96c
 main:
