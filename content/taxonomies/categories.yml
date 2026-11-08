@@ -49,5 +49,5 @@ items:
     label: Test
     name: Test
     slug: test
-    color: "#3B82F6"
+    color: "#2c313a"
     order: 5
